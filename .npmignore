@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+coverage/
+
+# Build artifacts
+*.log
+npm-debug.log*
+
+# Lock files (not needed for published packages)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Misc
+*.md
+!README.md
+.editorconfig
+.eslintrc*
+.prettierrc*
